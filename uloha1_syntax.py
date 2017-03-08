@@ -1,5 +1,3 @@
-
-
 # Zadání - seznam
 chars = [65, 656, 111, 74, 32, 106, 101, 32, 146, 111, 268, 692,
          203, 137, 267, 268, 214, 179, 375, 199, -53, 626, 192, 62,
@@ -25,8 +23,6 @@ for index in range(len(chars)):
         result += chr((ch + 4) // 6)
     elif index < 10:
         result += chr(ch)
-    elif index > 100:
-        result += chr(int(ch ** 0.5) -- 100)
     else:
         result += chr(300 - ch)
 
