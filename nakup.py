@@ -15,4 +15,4 @@ for i in range(len(nakup)):
         print("OK")
         nakup.remove(zbozi)
     else:
-        print("Měl jsi ale koupit něci jiného.")
+        print("Měl jsi ale koupit něco jiného.")
